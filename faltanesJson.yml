@@ -1,0 +1,42 @@
+
+
+
+Key:emisor
+    NomDenRazSocE: BANCO SANTANDER MEXICO S. A., INSTITUCION DE BANCA MULTIPLE, GRUPO FINANCIERO SANTANDER MEXICO
+    RFCEmisor: BSM970519DU8
+
+Key:receptor
+    *email: pendiente*
+    RFCRecep: GOSJ380525AM1
+    Nacionalidad: Nacional
+    NomDenRazSocR: Prueba1
+Key:encabezado
+    *tipoDocumento:,
+    *procesoId:,
+    *folioReferencia:,
+    *cveRetenc:,
+    *total:,
+    MesIni: 1
+    MesFin: 12
+    Ejerc: 2020
+    montoTotOperacion: 29933661.00
+    montoTotGrav: 29933540.00
+    montoTotExent: 121.00
+    montoTotRet: 3120438.00
+    cuerpos: 
+        {
+            *baseRet:,
+            TipoPagoRet=Pago provisional,
+            Impuesto=01
+            montoRet=3120438.00, 
+        }
+    intereses: 
+        {
+            SistFinanciero=SI, 
+            RetiroAORESRetInt=NO, 
+            OperFinancDerivad=NO, 
+            MontIntNominal=29933661.00, 
+            MontIntReal=0.00,
+            Perdida=-483093.00
+            --->Version=1.0, <---
+        }

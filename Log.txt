@@ -1,0 +1,70 @@
+NODO:retenciones:Retenciones
+Cert : CERTIFICADOTEMPOR AL
+CveRetenc : 16
+DescRetenc : 0.0
+FechaExp : 2021-11-05T17:26:31-06:00
+FolioInt : 1023538
+NumCert : NCERTIFICADOTEMPORAL
+Sello : SELLOTEMPORAL
+Version : 1.0
+xmlns:intereses : http://www.sat.gob.mx/esquemas/retencionpago/1/intereses
+xmlns:retenciones : http://www.sat.gob.mx/esquemas/retencionpago/1
+xmlns:xsi : http://www.w3.org/2001/XMLSchema-instance
+xsi:schemaLocation : http://www.sat.gob.mx/esquemas/retencionpago/1 http://www.sat.gob.mx/esquemas/retencionpago/1/retencionpagov1.xsd http://www.sat.gob.mx/esquemas/retencionpago/1/intereses http://www.sat.gob.mx/esquemas/retencionpago/1/intereses/intereses.xsd
+
+NODO:retenciones:Emisor
+NomDenRazSocE : BANCO SANTANDER MEXICO S. A., INSTITUCION DE BANCA MULTIPLE, GRUPO FINANCIERO SANTANDER MEXICO
+RFCEmisor : BSM970519DU8
+
+NODO:retenciones:Receptor
+Nacionalidad : Nacional
+
+NODO:retenciones:Nacional
+NomDenRazSocR : Prueba1
+RFCRecep : GOSJ380525AM1
+
+NODO:retenciones:Periodo
+Ejerc : 2020
+MesFin : 12
+MesIni : 1
+
+NODO:retenciones:Totales
+montoTotExent : 121.00
+montoTotGrav : 29933540.00
+montoTotOperacion : 29933661.00
+montoTotRet : 3120438.00
+
+NODO:retenciones:ImpRetenidos
+Impuesto : 01
+TipoPagoRet : Pago provisional
+montoRet : 3120438.00
+
+NODO:retenciones:Complemento
+
+NODO:intereses:Intereses
+MontIntNominal : 29933661.00
+MontIntReal : 0.00
+OperFinancDerivad : NO
+Perdida : -483093.00
+RetiroAORESRetInt : NO
+SistFinanciero : SI
+Version : 1.0
+
+NODO:retenciones:Addenda
+xmlns:Santander : http://www.santander.com.mx/schemas/xsd/retencionSantander
+
+NODO:Santander:retencionSantander
+
+NODO:Santander:TipodeParticipacion
+
+NODO:Santander:ResultadosdeFondosdeFondosInternacionales
+
+NODO:Santander:ResultadoPorValuacion
+
+NODO:Santander:ResultadoPorEnajenacion
+
+NODO:Santander:Otros
+
+NODO:Santander:OtrosIngresos
+
+NODO:Santander:ISRetenido

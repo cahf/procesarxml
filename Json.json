@@ -1,0 +1,42 @@
+{
+  "emisor": {
+    "rfc": "BIM011108DJ5",
+    "nombre": "Test client"
+  },
+  "receptor": {
+    "rfc": "CUBM940220512",
+    "nombre": "MICHELL OMAR DE LA CRUZ BERISTAIN",
+    "nacionalidad": "Nacional",
+    "email": ""
+  },
+  "encabezado": {
+    "tipoDocumento": "Retencion",
+    "procesoId": null,
+    "folioReferencia": "ret-0001",
+    "cveRetenc": "16",
+    "mesIni": "1",
+    "mesFin": "1",
+    "ejerc": 2021,
+    "montoTotOperacion": 1743295,
+    "montoTotGrav": 1743295,
+    "montoTotExent": 0,
+    "montoTotRet": 104598,
+    "total": 104598,
+    "cuerpos": [
+      {
+        "tipoPagoRet": "Pago definitivo",
+        "impuesto": "02",
+        "montoRet": 104598,
+        "baseRet": 1743295
+      }
+    ],
+    "intereses": {
+      "sistFinanciero": "SI",
+      "retiroAORESRetInt": "NO",
+      "operFinancDerivad": "NO",
+      "montIntNominal": "38750",
+      "montIntReal": "22972.09",
+      "perdida": "0"
+    }
+  }
+}
